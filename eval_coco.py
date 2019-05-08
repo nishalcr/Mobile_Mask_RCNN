@@ -1,9 +1,3 @@
-"""
-Mobile Mask R-CNN Train & Eval Script
-for Training on the COCO Dataset
-
-written by github.com/GustavZ
-"""
 # Import Packages
 import os
 import sys

@@ -1,10 +1,3 @@
-"""
-Downloads COCO 2017 Dataset
-and builds directory structure
-
-written by: www.github.com/GustavZ
-"""
-
 import os
 from mmrcnn import utils
 

@@ -1,33 +1,3 @@
-"""
-Mask R-CNN
-Configurations and data loading code for MS COCO.
-
-Based on the work of Waleed Abdulla (Matterport)
-Modified by github.com/GustavZ
-
-------------------------------------------------------------
-
-Usage: import the module (see Jupyter notebooks for examples), or run from
-       the command line as such:
-
-    # Train a new model starting from pre-trained COCO weights
-    python3 coco.py train --dataset=/path/to/coco/ --model=coco
-
-    # Train a new model starting from ImageNet weights
-    python3 coco.py train --dataset=/path/to/coco/ --model=imagenet
-
-    # Continue training a model that you had trained earlier
-    python3 coco.py train --dataset=/path/to/coco/ --model=/path/to/weights.h5
-
-    # Continue training the last model you trained
-    python3 coco.py train --dataset=/path/to/coco/ --model=last
-
-    # Run COCO evaluatoin on the last model you trained
-    python3 coco.py evaluate --dataset=/path/to/coco/ --model=last
-
-    # OWN TRAINING START
-    python coco.py train --model=imagenet --classes='person'
-"""
 # py2/3 compability
 from __future__ import absolute_import
 from __future__ import division

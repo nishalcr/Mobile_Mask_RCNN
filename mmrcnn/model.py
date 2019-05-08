@@ -1,10 +1,3 @@
-"""
-Mobile Mask R-CNN
-The main Mask R-CNN model implemenetation.
-
-Based on the work of Waleed Abdulla (Matterport)
-Modified by github.com/GustavZ
-"""
 # python 2 compability
 from __future__ import absolute_import
 from __future__ import division

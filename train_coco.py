@@ -1,13 +1,3 @@
-"""
-Mobile Mask R-CNN Train & Eval Script
-for Training on the COCO Dataset
-
-written by github.com/GustavZ
-
-to use tensorboard run inside model_dir with file "events.out.tfevents.123":
-tensorboard --logdir="$(pwd)"
-"""
-
 ## Import Packages
 import os
 import sys

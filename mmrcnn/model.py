@@ -103,9 +103,6 @@ def compute_backbone_shapes(config, image_shape):
 #  Resnet Graph
 ############################################################
 
-# Code adopted from:
-# https://github.com/fchollet/deep-learning-models/blob/master/resnet50.py
-
 def identity_block(input_tensor, kernel_size, filters, stage, block,
                    use_bias=True, train_bn=True):
     """The identity_block is the block that has no conv layer at shortcut
@@ -223,9 +220,6 @@ def resnet_graph(input_image, architecture, stage5=False, train_bn=True):
 ############################################################
 #  Mobilenet V1 Graph
 ############################################################
-
-# Code adopted from:
-# https://github.com/fchollet/deep-learning-models/blob/master/mobilenet.py
 
 def relu6(x):
     return K.relu(x, max_value=6)
